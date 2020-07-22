@@ -1,0 +1,24 @@
+{
+  "name": "hw4-cst336",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scorp197/hw4-cst336.git"
+  },
+  "author": "Christal O'Connell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scorp197/hw4-cst336/issues"
+  },
+  "homepage": "https://github.com/Scorp197/hw4-cst336#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  }
+}

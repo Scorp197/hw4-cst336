@@ -1,0 +1,111 @@
+ body {
+  background-size: cover;
+   width: 100%;
+   top: 0;
+  left: 0;
+   color: #ffffff;
+  font-family: Times;
+  font-size: 20px;
+  line-height: 1.3125;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+      src=".image.jpg",
+      sizingMethod="scale"
+    );
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+  
+
+.green-box {
+  background-image: url(/img/windows.jpg);
+  margin: 50px;
+  background-attachment: fixed;
+  padding: 200px;
+}
+
+.white-box {
+  border: 5px solid white;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 12px;
+}
+
+.box {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+  h1{
+    font-size: 70px;
+     font-family: Times;
+    text-align: center;
+    color: red;
+    margin-top: -20%;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+  color: black;
+  text-align: left;
+  margin-top: 15%;
+  
+  }
+  
+  h3 {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin-top: 3%;
+  
+  }
+  
+
+p{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  
+}
+
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  padding: 15px;
+}
+
+li a:hover {
+    background-color: #7300ff;
+    color: black;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #dddddd;
+  margin: 0;
+  padding: 0;
+  
+}
+
+img {
+  max-width: 40%;
+  margin-top: 1%;
+  
+}
+
+.navbar {
+  list-style: none;
+  overflow: hidden;
+  position: fixed; 
+ width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  
+}
